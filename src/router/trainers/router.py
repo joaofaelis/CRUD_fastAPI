@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from src.repository.repository import Repository
 from src.services.trainers.services import Service
-from src.domain.schema import Model_Create, Model_Up, Soft
+from src.domain.DTO.schema_docs_mongo import Model_Create, Model_Up, Soft
 
 collection = "trainers"
 trainer = APIRouter()

@@ -1,5 +1,5 @@
 from src.repository.repository import Repository
-from src.domain.schema import Model_Up, Soft
+from src.domain.DTO.schema_docs_mongo import Model_Up, Soft
 
 
 class Service:

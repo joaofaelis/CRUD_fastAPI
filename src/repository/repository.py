@@ -1,6 +1,7 @@
-from src.infrastructure.config import Infra
+#local
+from src.infrastructure.mongo.mongo_infra import InfraMongoDb
 
-database = Infra.CONECT
+database = InfraMongoDb
 
 class Repository:
 
